@@ -1,0 +1,92 @@
+#jeopardy {
+	text-align: center;
+	font-size: 9pt;
+	background-color: wheat;
+	color: slategray;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+body {
+	background-color: steelblue !important;
+}
+
+h1 {
+	color: peachpuff;
+	font-size: 120px !important;
+	line-height: 160px;
+	text-shadow: 0 1px 1px #fff;
+	font-family: 'Bahnschrift Regular';
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.scores {
+	text-align: center;
+	font-family: 'Bahnschrift Regular';
+	font-weight: normal;
+}
+
+#jeopardy thead,
+#jeopardy td {
+	border: solid 1px white;
+	width: 12em;
+	padding: 1em;
+	font-family: 'Bahnschrift Regular';
+	font-weight: normal;
+}
+
+thead {
+	text-transform: uppercase;
+
+	height: 4em;
+	text-shadow: darkgoldenrod 1px 1px;
+	font-size: large;
+}
+
+td {
+	height: 9em;
+	font-family: Copse, serif;
+}
+
+span:hover {
+	cursor: pointer;
+}
+
+.questionValue {
+	font-size: large;
+}
+
+.answer {
+	font-size: large;
+}
+
+.player {
+	justify-self: center;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#addPlayer,
+#start {
+	margin: 10px auto;
+}
+
+.players {
+	flex-direction: column;
+	justify-content: center;
+	width: 40%;
+	margin-left: 30% !important;
+	margin-right: 30% !important;
+	height: 30vw;
+	align-items: stretch;
+}
+
+.scores {
+	font-family: 'Bahnschrift Regular';
+	font-weight: normal;
+	color: papayawhip;
+	font-size: 2rem;
+	margin-bottom: 20px !important;
+}
